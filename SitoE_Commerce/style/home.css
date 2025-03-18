@@ -167,5 +167,26 @@ nav
     margin-bottom: 10px;
 }
 
+
+
+.btnhome {
+    background-color: #ec0000;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 2rem;
+
+}
+
+
+#btnhome:hover {
+    background-color: #750000;
+
+}
   
 

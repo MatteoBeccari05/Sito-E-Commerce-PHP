@@ -45,25 +45,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 $_SESSION['cognome'] = $user['cognome']; // Recupera il cognome dal database
 
                 // Redirigi l'utente a una pagina protetta (ad esempio, il pannello utente)
-                header("Location: ../html/index.php");
+                header("Location: ../pages/index.php");
                 exit;
             }
             else
             {
-                // La password non è corretta
-                echo "La password inserita non è corretta.";
+                header("Location: ../redirect/error_password.html");
             }
         }
         else
         {
-            // L'username non esiste
-            echo "Username non trovato.";
+            header("Location: ../redirect/error_password.html");
         }
     }
     catch (PDOException $e)
     {
-        // Gestione degli errori
-        echo "Errore: " . $e->getMessage();
+        logError($e);
     }
 }
 ?>
