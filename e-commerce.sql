@@ -31,3 +31,12 @@ VALUES
 (61, 'Galaxy Z Fold5', 'Galaxy Z Fold5 con processore Snapdragon 8 Gen 2', 1799, 'Qualcomm Snapdragon 8 Gen 2', 'Display Dynamic AMOLED 2X da 7,6"', '["256GB", "512GB", "1TB"]', '{"nero": "../images/galaxyzfold5_black.jpg"}', '["Nero"]');
 
 
+
+create table e_commerce.utenti(
+nome varchar(50) not null,
+cognome varchar(50) not null,
+email varchar(50) not null,
+username varchar(50) primary key,
+password varchar(500) not null
+);
+
