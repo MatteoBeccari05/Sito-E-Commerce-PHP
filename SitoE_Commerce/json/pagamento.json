@@ -1,0 +1,122 @@
+{
+  "title": "Pagamento",
+  "body": {
+    "nav": {
+      "class": "navbar navbar-expand-lg bg-dark navbar-dark fixed-top",
+      "container": {
+        "fluid": true,
+        "logo": {
+          "href": "index.php",
+          "img": {
+            "src": "../images/logo.png",
+            "alt": "UT Device Logo",
+            "style": "height: 50px; margin-right: 5px;"
+          }
+        },
+        "button": {
+          "type": "button",
+          "data-bs-toggle": "collapse",
+          "data-bs-target": "#navbarNavDropdown",
+          "aria-controls": "navbarNavDropdown",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation",
+          "span": {
+            "class": "navbar-toggler-icon"
+          }
+        },
+        "collapse": {
+          "id": "navbarNavDropdown",
+          "ul": {
+            "class": "navbar-nav",
+            "items": [
+              { "href": "index.php", "class": "nav-link", "aria-current": "page", "text": "Home" },
+              { "href": "iphone.php", "class": "nav-link", "text": "iPhone" },
+              { "href": "samsung.php", "class": "nav-link", "text": "Samsung" },
+              { "href": "carrello.php", "class": "nav-link", "text": "Carrello" }
+            ]
+          }
+        }
+      }
+    },
+    "h1": "Pagamento",
+    "form": {
+      "fields": [
+        {
+          "label": "Nome e Cognome",
+          "type": "text",
+          "id": "full-name",
+          "placeholder": "Inserisci il tuo nome e cognome",
+          "required": true
+        },
+        {
+          "label": "Indirizzo",
+          "type": "text",
+          "id": "address",
+          "placeholder": "Inserisci il tuo indirizzo",
+          "required": true
+        },
+        {
+          "label": "Città",
+          "type": "text",
+          "id": "city",
+          "placeholder": "Inserisci la tua città",
+          "required": true
+        },
+        {
+          "label": "CAP",
+          "type": "text",
+          "id": "postal-code",
+          "placeholder": "Inserisci il CAP",
+          "required": true
+        },
+        {
+          "label": "Telefono",
+          "type": "tel",
+          "id": "phone",
+          "placeholder": "Inserisci il tuo numero di telefono",
+          "required": true
+        },
+        {
+          "label": "Email",
+          "type": "email",
+          "id": "email",
+          "placeholder": "Inserisci la tua email",
+          "required": true
+        },
+        {
+          "label": "Metodo di pagamento",
+          "type": "select",
+          "id": "payment-method",
+          "options": [
+            "Carta di credito",
+            "PayPal",
+            "Bonifico bancario"
+          ],
+          "required": true
+        },
+        {
+          "label": "Numero della Carta di Credito",
+          "type": "text",
+          "id": "card-number",
+          "placeholder": "Inserisci il numero della carta",
+          "required": true
+        },
+        {
+          "label": "Data di Scadenza",
+          "type": "text",
+          "id": "expiry-date",
+          "placeholder": "MM/AA",
+          "required": true
+        },
+        {
+          "label": "CVV",
+          "type": "text",
+          "id": "cvv",
+          "placeholder": "Inserisci il CVV",
+          "required": true
+        }
+      ]
+    }
+  }
+}
+  

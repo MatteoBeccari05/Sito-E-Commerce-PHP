@@ -1,0 +1,173 @@
+/* Stile per centrare il titolo */
+h1 {
+    text-align: center;
+    margin-top: 90px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.card-img-top {
+    padding: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.esaurito {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ec3131;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    font-size: large;
+    font-weight: bold;
+}
+
+.product-price-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 2.5rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.add-to-cart-btn {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 2rem;
+}
+
+#add-to-cart-btn:hover {
+    background-color: #218838;
+
+}
+
+#add-to-cart-btn:focus {
+    outline: none;
+}
+
+nav
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+.card h5
+{
+    font-weight: bold;
+}
+
+.card a
+{
+    font-weight: bold;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container.my-5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.col-6 {
+    flex: 1;
+    padding: 20px;
+}
+
+.col-4 {
+    flex: 0.4;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+#order-summary li {
+    margin-bottom: 10px;
+}
+
+.btnhome {
+    background-color: #ec0000;
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 2rem;
+
+}
+
+#btnhome:hover {
+    background-color: #750000;
+
+}
+  
+

@@ -1,0 +1,117 @@
+{
+  "title": "Home",
+  "body": {
+    "nav": {
+      "class": "navbar navbar-expand-lg bg-dark navbar-dark fixed-top",
+      "container": {
+        "fluid": true,
+        "logo": {
+          "href": "index.php",
+          "img": {
+            "src": "../images/logo.png",
+            "alt": "UT Device Logo",
+            "style": "height: 50px; margin-right: 5px;"
+          }
+        },
+        "button": {
+          "type": "button",
+          "data-bs-toggle": "collapse",
+          "data-bs-target": "#navbarNavDropdown",
+          "aria-controls": "navbarNavDropdown",
+          "aria-expanded": "false",
+          "aria-label": "Toggle navigation",
+          "span": {
+            "class": "navbar-toggler-icon"
+          }
+        },
+        "collapse": {
+          "id": "navbarNavDropdown",
+          "ul": {
+            "class": "navbar-nav",
+            "items": [
+              { "href": "index.php", "class": "nav-link active", "aria-current": "page", "text": "Home" },
+              { "href": "iphone.php", "class": "nav-link", "text": "iPhone" },
+              { "href": "samsung.php", "class": "nav-link", "text": "Samsung" },
+              { "href": "carrello.php", "class": "nav-link", "text": "Carrello" }
+            ]
+          }
+        }
+      }
+    },
+    "h1": "UT Device",
+    "p": {
+      "class": "text-center",
+      "text": "Benvenuto su UT Device, il tuo negozio online per i migliori smartphone e accessori! Scopri le offerte imperdibili sui modelli più recenti e scegli il dispositivo perfetto per te."
+    },
+    "carousel": {
+      "id": "carousel",
+      "class": "carousel slide carousel-fade mt-5",
+      "data-bs-ride": "carousel",
+      "indicators": [
+        { "data-bs-target": "#carousel", "data-bs-slide-to": "0", "class": "active" },
+        { "data-bs-target": "#carousel", "data-bs-slide-to": "1" }
+      ],
+      "items": [
+        { "src": "../images/sams.png", "alt": "sams" },
+        { "src": "../images/iphone.png", "alt": "iphone" }
+      ],
+      "prev_button": {
+        "class": "carousel-control-prev",
+        "type": "button",
+        "data-bs-target": "#carousel",
+        "data-bs-slide": "prev",
+        "icon_class": "carousel-control-prev-icon",
+        "aria_label": "Previous"
+      },
+      "next_button": {
+        "class": "carousel-control-next",
+        "type": "button",
+        "data-bs-target": "#carousel",
+        "data-bs-slide": "next",
+        "icon_class": "carousel-control-next-icon",
+        "aria_label": "Next"
+      }
+    },
+    "cards": {
+      "title": "I nostri cataloghi",
+      "items": [
+        {
+          "class": "card",
+          "style": "width: 20rem;",
+          "img": {
+            "class": "card-img-top",
+            "src": "../images/iphone16.jpg",
+            "alt": "Card image cap"
+          },
+          "body": {
+            "h5": "iPhone",
+            "p": "Scopri la nostra gamma di prodotti apple a prezzi vantaggiosi!",
+            "a": {
+              "href": "iphone.php",
+              "class": "btn btn-primary",
+              "text": "Scopri di più"
+            }
+          }
+        },
+        {
+          "class": "card",
+          "style": "width: 20rem;",
+          "img": {
+            "class": "card-img-top",
+            "src": "../images/samsung.png",
+            "alt": "Card image cap"
+          },
+          "body": {
+            "h5": "Modelli Samsung Galaxy",
+            "p": "Scopri la nostra gamma di prodotti Galaxy a prezzi vantaggiosi",
+            "a": {
+              "href": "samsung.php",
+              "class": "btn btn-primary",
+              "text": "Scopri di più"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
